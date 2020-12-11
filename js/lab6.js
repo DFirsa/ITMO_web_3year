@@ -69,7 +69,7 @@ function galery_click(min, max){
 function get_imgs(){
 
     var imgs = []
-    $.getJSON("/js/galery.json")
+    $.getJSON("./js/galery.json")
         .done(function(data){
             data["images"].forEach(element => {
                 imgs.push(element);
@@ -81,5 +81,5 @@ function get_imgs(){
 set_overlay("galery_overlay", "galery_close", "galery_open")
 var names = get_imgs();
 var current_index = 0;
-document.getElementById("galery_overlay").onclick = () => {galery_click('/img/galery/min/','/img/galery/full/')}
-document.getElementById("galery").onclick = () => {galery_click('/img/galery/min/','/img/galery/full/')}
+document.getElementById("galery_overlay").onclick = () => {galery_click('./img/galery/min/','/img/galery/full/')}
+document.getElementById("galery").onclick = () => {galery_click('./img/galery/min/','/img/galery/full/')}

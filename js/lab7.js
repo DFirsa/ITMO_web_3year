@@ -151,9 +151,9 @@ function get_words(path, word){
 }
 
 function init_chat(){
-    first = get_words("/js/dictionary.json", "first");
-    second = get_words("/js/dictionary.json", "second");
-    third = get_words("/js/dictionary.json", "third");
+    first = get_words("./js/dictionary.json", "first");
+    second = get_words("./js/dictionary.json", "second");
+    third = get_words("./js/dictionary.json", "third");
     var input = document.getElementById("chat_input");
     var btn = document.getElementById("chat_btn");
 
