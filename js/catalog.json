@@ -1,0 +1,52 @@
+{
+    "products" : [
+    {
+    "img" : "../img/product.jpg",
+    "title" : "Подвеска",
+    "name" : "Dolce & Gabanna",
+    "price" : "175 000 P",
+    "button" : "product.html"
+    },
+    
+    {
+    "img" : "../img/product.jpg",
+    "title" : "Подвеска",
+    "name" : "Dolce & Gabanna",
+    "price" : "175 000 P",
+    "button" : "product.html"
+    },
+    
+    {
+    "img" : "../img/product.jpg",
+    "title" : "Подвеска",
+    "name" : "Dolce & Gabanna",
+    "price" : "175 000 P",
+    "button" : "product.html"
+    },
+    
+    {
+    "img" : "../img/product.jpg",
+    "title" : "Подвеска",
+    "name" : "Dolce & Gabanna",
+    "price" : "175 000 P",
+    "button" : "product.html"
+    },
+    
+    {
+    "img" : "../img/product.jpg",
+    "title" : "Подвеска",
+    "name" : "Dolce & Gabanna",
+    "price" : "175 000 P",
+    "button" : "product.html"
+    },
+    
+    {
+    "img" : "../img/product.jpg",
+    "title" : "Подвеска",
+    "name" : "Dolce & Gabanna",
+    "price" : "175 000 P",
+    "button" : "product.html"
+    }
+    
+]
+}
